@@ -1,0 +1,25 @@
+name: Lint
+
+on:
+  
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  run-linters:
+    name: Run linters
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: Install modules
+        run: yarn
+
+      - name: Run linters
+        run: yarn lint

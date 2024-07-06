@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Memecaster",
+    "slug": "memecaster",
+    "scheme": "memecaster",
+    "version": "0.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/memecaster-adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/memecaster-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000005"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abacusengineering.Memecaster",
+      "buildNumber": "24",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "To ehance your experience, this app needs access to your photo library"
+      }
+    }, 
+    "android": {
+      "package" : "com.abacusengineering.Memecaster",
+      "versionCode" : 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-app-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [["expo-secure-store"]],
+    "extra": {
+      "eas": {
+        "projectId": "2138af03-4264-47c5-8265-1d1f8046fdd1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2138af03-4264-47c5-8265-1d1f8046fdd1"
+    }
+  }
+}

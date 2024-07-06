@@ -1,0 +1,34 @@
+{
+  "cli": {
+    "version": ">= 0.60.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "channel": "preview"
+    },
+    "staging": {
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "staging"
+      },
+      "channel": "staging",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "channel": "production"
+    }
+  }
+}
