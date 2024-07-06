@@ -1,1 +1,1 @@
-### Comment out all permissions imports in App.tsx and it works
+### Comment out all permissions imports in App.js and it works
