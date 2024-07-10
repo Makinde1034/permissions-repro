@@ -32,9 +32,10 @@
     "@segment/sovran-react-native": "^1.1.1",
     "@sentry/react-native": "5.19.1",
     "@types/react": "~18.2.45",
-    "@zerodev/ecdsa-validator": "^5.2.3",
-    "@zerodev/permissions": "^5.3.2",
-    "@zerodev/sdk": "^5.2.13",
+    "@zerodev/ecdsa-validator": "^5.3.1",
+    "@zerodev/permissions": "5.3.2",
+    "@zerodev/sdk": "^5.3.3",
+    "@zerodev/webauthn-key": "^5.3.0",
     "apollo-client": "^2.6.10",
     "axios": "1.4.0",
     "bignumber.js": "^9.1.2",
@@ -95,7 +96,7 @@
     "shorthash": "^0.0.2",
     "typescript": "^5.3.0",
     "uuid": "^10.0.0",
-    "viem": "^2.11.0",
+    "viem": "^2.16.3",
     "web3": "^4.8.0"
   },
   "devDependencies": {
