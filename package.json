@@ -42,7 +42,7 @@
     "date-fns": "^3.3.1",
     "dayjs": "^1.11.10",
     "deprecated-react-native-prop-types": "^5.0.0",
-    "expo": "~51.0.11",
+    "expo": "~50.0.11",
     "expo-application": "~5.8.4",
     "expo-av": "^13.10.5",
     "expo-blur": "^12.9.2",
